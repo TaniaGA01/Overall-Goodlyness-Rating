@@ -1,0 +1,89 @@
+:root{
+    --orange : #F25F29
+  }
+body {
+    font-family: 'Kodchasan', sans-serif;
+    background: linear-gradient(135deg, #8332A6 0%, #F25F29 100%);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+/* body{
+    background-color: var(--orange);
+    font-family: 'Kodchasan', sans-serif;
+} */
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+h2 {
+    font-size: 16px;
+    margin-top: 0;
+}
+p {
+    font-size: 5px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.rate, .rate-click {
+    height: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 8px;
+    color: #f25f29;
+    font-weight: 700;
+}
+.card {
+    background-color: white;
+    border-radius: 0.3rem;
+    width: 6rem;
+    padding: 1.5rem;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.08); 
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.08);
+}
+.text-block{
+    height: 15px;
+}
+.stars-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 5rem;
+    margin: 0 auto;
+}
+.star-content{
+    position: relative;
+    display: contents;
+}
+.star:hover{
+    cursor: pointer;
+}
+.star {
+    margin: 0 3px;
+}
+.star-border{
+    fill: lightslategray;
+}
+.star-inner-white{
+    fill: white;
+}
+.star-inner-gold{
+    fill: gold !important;
+}
