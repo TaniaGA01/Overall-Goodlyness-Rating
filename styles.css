@@ -30,36 +30,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 95vh;
 }
 h2 {
-    font-size: 16px;
+    font-size: 3rem;
     margin-top: 0;
 }
 p {
-    font-size: 5px;
-    margin-top: 15px;
+    font-size: 1rem;
+    margin-top: 35px;
     margin-bottom: 0;
 }
 .rate, .rate-click {
     height: 14px;
     text-transform: uppercase;
     text-align: center;
-    font-size: 8px;
+    font-size: 2rem;
     color: #f25f29;
     font-weight: 700;
 }
 .card {
     background-color: white;
-    border-radius: 0.3rem;
-    width: 6rem;
-    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 5rem;
     text-align: center;
     -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.08); 
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.08);
 }
 .text-block{
-    height: 15px;
+    height: 3rem;
 }
 .stars-block {
     display: flex;
@@ -70,13 +70,14 @@ p {
 }
 .star-content{
     position: relative;
-    display: contents;
+    display: inline-flex;
 }
 .star:hover{
     cursor: pointer;
 }
 .star {
-    margin: 0 3px;
+    padding: 0 10px;
+    width: 40px;
 }
 .star-border{
     fill: lightslategray;
